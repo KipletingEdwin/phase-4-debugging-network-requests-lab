@@ -63,11 +63,19 @@ developing your own process.
 - Add a new toy when the toy form is submitted
 
   - How I debugged:
+  Change Toys to Toy in create action
+
+
+
 
 - Update the number of likes for a toy
 
+
   - How I debugged:
+
+  .Add parameter id in my permit section of my private toy_params method
 
 - Donate a toy to Goodwill (and delete it from our database)
 
   - How I debugged:
+  add the keyword destroy to my routes in config file.
